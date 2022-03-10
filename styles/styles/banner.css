@@ -1,0 +1,56 @@
+#banner {
+	height: 70vh;
+	background-image: url("../images/bannière.jpg");
+	background-size: cover;
+	background-position: top;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-shadow: -1px 0px 11px #ffde598c;
+	background-attachment: fixed;
+	background-blend-mode: darken;
+}
+
+
+.banner-bas {
+	height: 50vh;
+	background-image: url("../images/america.jpg");
+	background-size: cover;
+	background-position: top;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-shadow: -1px 0px 11px #0011AC;
+	background-color: #0011AC;
+	background-attachment: fixed;
+	margin-top: 70px;
+}
+
+H1 {
+	font-size: 60px;
+}
+
+.btn-blue {
+	color: white;
+	background-color: #ffde59;
+	padding: 15px 20px;
+	border-radius: 6px;
+	font-family: 'Poppins' sans-serif;
+	font-weight: bolder;
+	font-size: 25px;
+	width: 30%;
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #ffde598c;
+	transition: 1s;
+	text-align: center;
+}
+.btn-blue:hover {
+	background-color: white;
+	color: #FFDE59;
+	transition: 1s;
+}
